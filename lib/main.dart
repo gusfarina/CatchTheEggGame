@@ -41,8 +41,8 @@ class JogoBase extends BaseGame with TapDetector {
     textScore = TextComponent('Score: ${galinha.score}',
         config: TextConfig(color: Colors.black))
       ..anchor = Anchor.topCenter
-      ..x = dimensions.width - 100
-      ..y = 32.0;
+      ..x = dimensions.width / 2
+      ..y = 30.0;
     add(textScore);
   }
 
